@@ -4,8 +4,11 @@
   <p>{$LANG.domaincheckerenterdomain}</p>
   
   <form method="post" action="domainchecker.php">
-
-    <input class="form-control input-lg" name="domain" type="text" placeholder="{$LANG.domaincheckerdomainexample}" />
+ 
+    <div class="input-group input-group-lg">
+       <span class="input-group-addon">www.</span>
+       <input class="form-control input-lg" name="domain" type="text" placeholder="{$LANG.domaincheckerdomainexample}" />
+    </div>
     
     <br />
     
